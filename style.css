@@ -1,0 +1,156 @@
+/* html {
+  background-color: #4f90cd;
+} */
+
+* {
+  margin: 0;
+  padding: none;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.cv-header {
+  display: flex;
+  background-color: #4f90cd;
+  color: white;
+  padding: 4rem 4rem 2rem;
+  font-size: 19.5px;
+}
+
+.cv-right img {
+  /* padding-left: 40px; */
+  border-radius: 50%;
+  border-width: 4.5px;
+  border-style: solid;
+  border-color: antiquewhite;
+  height: 100%;
+  width: 100%;
+}
+
+.cv-logo {
+  width: 129px !important;
+  height: 129px !important;
+  max-width: 165px !important;
+  max-height: 165px !important;
+  padding-left: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.cv-description {
+  margin-top: 1rem;
+}
+
+.cv-left {
+  padding-right: 5rem;
+}
+
+.cv-links {
+  display: flex;
+  padding: 2rem 4rem;
+  background-color: #3f74a0;
+  color: white;
+  /* justify-content: space-between; */
+}
+
+.cv-links-left {
+  display: flex;
+  flex-direction: column;
+  margin-right: 14rem;
+}
+
+.cv-links-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon {
+  margin-right: 1rem;
+}
+
+.education-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+}
+
+.languages h1 {
+  color: #b2b2b2;
+  text-decoration: underline;
+}
+
+.language-tag {
+  background-color: #b2b2b2;
+  color: white;
+  padding: 4px 5px;
+  margin: 2px 4px;
+}
+
+.cv-education h1 {
+  text-decoration: underline;
+  color: #b2b2b2;
+  margin-bottom: 10px;
+}
+
+.cv-education h4 {
+  font-size: 19.5px;
+  font-weight: 800px;
+  font-style: italic;
+}
+
+.university {
+  font-size: 19.5px;
+}
+
+.date-and-location {
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+  color: gray;
+}
+
+.work-experience {
+  margin-top: 1rem;
+  padding-left: 4rem;
+  text-decoration: underline;
+  color: #b2b2b2;
+}
+
+.experience {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 4rem 1rem 2rem;
+}
+
+.responsibilities {
+  margin-top: 1rem;
+  color: gray;
+}
+
+.tools {
+  text-decoration: underline;
+  color: #b2b2b2;
+}
+
+.tools-table {
+  /* background-color: #b2b2b2; */
+  width: 100%;
+}
+
+.tools-table td {
+  height: 20px;
+  padding: 4px;
+  border-bottom: 1px solid #b2b2b2;
+}
+
+th {
+  text-align: left;
+}
+
+.experience-description {
+  /* padding-right: 1rem; */
+  flex: 3;
+  padding-left: 4rem;
+}
+.experience-tools {
+  flex: 1;
+}
